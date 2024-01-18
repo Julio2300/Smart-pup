@@ -4,32 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style/styles.css">
     <title>SmartPup Institute</title>
 </head>
 
 <body>
-    <div class="principalGrid">
-        <header>
-            <div class="title">
-                <h1>SmartPup Institute</h1>
+    <header>
+        <div class="container-fluid grid text-center menu">
+            <div class="col-xxl-12">
+                <h2>SmartPup Institute</h2>
             </div>
-            <nav class="menu">
-                <li>
-                    <a href="../index.html">Home</a>
-                    <a href="./aboutUs.html">About Us</a>
-                    <a href="./family.html">Our Family</a>
-                    <a href="./contactUs.html">Contact Us</a>
-                    <a href="#">Family grow</a>
+            <nav class="col container-fluid text-center">
+                <li class="row">
+                    <a class="col" href="../index.html">Home</a>
+                    <a class="col" href="./aboutUs.html">About Us</a>
+                    <a class="col" href="./family.html">Our Family</a>
+                    <a class="col" href="./contactUs.html">Contact Us</a>
+                    <a class="col" href="#">Family grow</a>
                 </li>
             </nav>
-        </header>
-        <main class="mainAbout">
-            <div class="imgPrinc">
-                <img src="https://i.pinimg.com/originals/28/4b/cb/284bcb55db02c1b94718e6f9c12e77cd.jpg"
-                    alt="Happy puppy">
-            </div>
-            <div class="aboutUss">
+        </div>
+    </header>
+    <main class="container-fluid d-flex flex-column text-center">
+        <div class="publi">
+            <img src="https://s1.eestatic.com/2020/07/06/ciencia/medio-ambiente/perros-mascotas-medio_ambiente_503211222_155221669_1706x960.jpg" alt="Happy puppy">
+        </div>
+        <div class="textos ">
+            <div class="texto">
                 <div class="textAbout">
                     <h2>Let the family grow!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed dui risus. Mauris leo dolor,
@@ -41,7 +44,11 @@
                         Pellentesque justo nunc, rhoncus vitae semper sit amet, rhoncus ut eros. Duis at lacinia arcu,
                         sed scelerisque ex. Curabitur dolor dui, semper sed est ut, sodales sodales nulla. Morbi in
                         tristique diam. Vestibulum egestas risus id accumsan iaculis. Phasellus non tellus bibendum,
-                        bibendum elit id, consectetur augue.
+                        bibendum elit id, consectetur augue. Mauris eget consectetur erat. Fusce id eleifend ipsum, in
+                        congue libero. Integer erat lorem, venenatis ut malesuada sit amet, tincidunt ut nibh. Integer
+                        sit amet orci nec mauris vehicula rhoncus nec egestas ante. Proin mollis ante in ultricies
+                        suscipit. Proin suscipit scelerisque lectus. Etiam elementum diam dolor, dignissim dapibus massa
+                        facilisis vitae. Aenean nec sapien laoreet, condimentum ligula non, tempor lectus.
                     </p>
                     <div class="btn">
                         <a href="./contactUs.html">
@@ -49,51 +56,56 @@
                         </a>
                     </div>
                 </div>
-                <div class="aboutImage">
-                    <img src="https://i.pinimg.com/564x/bb/f0/f8/bbf0f82025fda33aa649c5b21e393965.jpg"
+                <div class="container-fluid">
+                    <img class="img-fluid rounded-5"
+                        src="https://i.pinimg.com/564x/bb/f0/f8/bbf0f82025fda33aa649c5b21e393965.jpg"
                         alt="publicidad instituto">
                 </div>
             </div>
-            <div class="servis">
-                <h2>Our Specialized</h2>
-                <div class="logosServ">
-                    <div class="logoServ">
-                        <h3>Add a smile to your family</h3>
+            <div class="texto">
+                <div class="text">
+                    <h2 class="text-center">Be happier</h2>
+                </div>
+                <div class="adoptImgs">
+                    <div class="adoptImg">
+                        <h3 class="fw-bold">Add a smile to your family</h3>
                         <img src="https://i.pinimg.com/564x/6c/46/a8/6c46a8965384f8210997403e8de00234.jpg"
-                            alt="Reactive dog">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            alt="Smile dog">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            voluptates eaque</p>
                     </div>
-                    <div class="logoServ">
-                        <h3>Give him an oportunity</h3>
+                    <div class="adoptImg">
+                        <h3 class="fw-bold">Give him an oportunity</h3>
                         <img src="https://i.pinimg.com/564x/15/9b/de/159bde1dd33e65f211632869017403c2.jpg"
                             alt="Scientific puppy">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa fuga hic odio commodi</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
-                    <div class="logoServ">
-                        <h3>Help him not to be afraid</h3>
+                    <div class="adoptImg">
+                        <h3 class="fw-bold">Help him not to be afraid</h3>
                         <img src="https://i.pinimg.com/564x/71/e8/2b/71e82be7888f7bd61b3b506ba394e7e0.jpg"
                             alt="Puppy destruction">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa fuga hic odio commodi
-                            voluptates</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
-                    <div class="logoServ">
-                        <h3>You can save a life</h3>
+                    <div class="adoptImg">
+                        <h3 class="fw-bold">You can save a life</h3>
                         <img src="https://i.pinimg.com/originals/86/01/aa/8601aa500d9fe8569ed6e7143b993b19.jpg"
                             alt="Puppy trainer">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
             </div>
-        </main>
-        <footer>
-            <div class="footRigth">
-                <p>FOOTER HERE</p>
-            </div>
-            <div class="footLeft">
-                <p>ICONS FOOTER HERE</p>
-            </div>
-        </footer>
-    </div>
+        </div>
+
+    </main>
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <p class="col">FOOTER HERE</p>
+            <p class="col">ICONS FOOTER HERE</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
